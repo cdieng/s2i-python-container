@@ -1,6 +1,6 @@
 # This image provides a Python 3.6 environment you can use to run your Python
 # applications.
-FROM rhscl/s2i-base-rhel7:1
+FROM deploy.ose.tektey.com:5000/rhscl/s2i-base-rhel7:latest
 
 EXPOSE 8080
 
